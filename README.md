@@ -10,6 +10,16 @@ Shortcut Launcher では、`.exe`、`.lnk`、URL、`.url` ファイルをドラ�
 
 登録情報はローカルのJSONファイルに保存されます。アプリケーション項目では実行ファイルのパスと抽出したアイコン情報を保持し、URL項目ではURL文字列を保持します。
 
+## プレビュー
+
+### アプリタブ
+
+![アプリタブのスクリーンショット](assets/app-tab.png)
+
+### URLタブ
+
+![URLタブのスクリーンショット](assets/url-tab.png)
+
 ## ドキュメント
 
 - [フォルダ構成](docs/folder-structure.md)
