@@ -1,35 +1,34 @@
-# Product Overview
+# プロダクト概要
 
-Shortcut Launcher is an internal productivity tool that provides a single entry point for commonly used links and resources.
+Shortcut Launcher は、よく使うリンクやリソースへの入口を1つにまとめる社内向けの生産性向上ツールです。
 
-## Problem
+## 課題
 
-Teams often rely on a scattered set of bookmarks, pinned messages, shared documents, dashboards, and tool-specific URLs. Over time, these links become hard to discover, inconsistent between members, and difficult to keep up to date.
+チームでは、ブックマーク、固定メッセージ、共有ドキュメント、ダッシュボード、ツール固有のURLなどが分散しがちです。時間が経つにつれて、必要なリンクを見つけにくくなり、メンバーごとに参照先がばらつき、更新も難しくなります。
 
-Shortcut Launcher addresses this by presenting a curated catalog of destinations in one place.
+Shortcut Launcher は、整理された行き先のカタログを1か所にまとめることで、この課題を解決します。
 
-## Goals
+## 目的
 
-- Reduce time spent searching for recurring links
-- Make frequently used resources easier to discover
-- Keep operational navigation consistent across users
-- Provide a lightweight interface that does not interrupt daily work
-- Avoid exposing private operational data outside the internal environment
+- 繰り返し使うリンクを探す時間を減らす
+- よく使うリソースを見つけやすくする
+- ユーザー間で業務上のナビゲーションを揃える
+- 日常業務を妨げない軽量なインターフェースを提供する
+- privateな業務データを社外に公開しない
 
-## Non-Goals
+## 対象外
 
-- This public repository is not a distributable application.
-- This public repository does not provide installation or self-hosting instructions.
-- This public repository does not document private URLs, account structures, or internal workflows.
+- この公開リポジトリは、配布可能なアプリケーションではありません。
+- この公開リポジトリでは、インストール手順やセルフホスト手順を提供しません。
+- この公開リポジトリでは、privateなURL、アカウント構造、社内ワークフローを説明しません。
 
-## Example Use Cases
+## 想定ユースケース
 
-- Opening frequently used internal tools
-- Grouping operational resources by team, task, or context
-- Reducing onboarding friction for repeated navigation tasks
-- Maintaining a clean list of approved destinations
+- よく使う社内ツールを開く
+- チーム、作業、文脈ごとに業務リソースを整理する
+- 繰り返し発生するナビゲーション作業のオンボーディング負荷を下げる
+- 承認済みの行き先を分かりやすく保守する
 
-## Public Release Approach
+## 公開方針
 
-Only concept-level documentation is published here. The private implementation, configuration, and data remain in a separate private repository.
-
+ここではコンセプトレベルのドキュメントのみを公開しています。privateな実装、設定、データは別のprivateリポジトリで管理されています。

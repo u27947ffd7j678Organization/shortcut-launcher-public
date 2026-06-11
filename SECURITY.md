@@ -1,8 +1,7 @@
-# Security Policy
+# セキュリティポリシー
 
-This public repository contains documentation only.
+この公開リポジトリには、ドキュメントのみを含めています。
 
-Do not open public issues containing secrets, private URLs, account identifiers, or internal operational details.
+シークレット、privateなURL、アカウント識別子、社内業務に関する詳細を含む内容を、public Issue に投稿しないでください。
 
-If you believe sensitive information has been exposed, contact the repository owner privately so the content can be removed and any affected credentials can be rotated.
-
+機密情報が公開されている可能性がある場合は、リポジトリ所有者へ非公開の方法で連絡してください。該当内容を削除し、影響を受ける認証情報をローテーションできるようにします。

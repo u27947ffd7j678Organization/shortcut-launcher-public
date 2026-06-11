@@ -1,31 +1,30 @@
-# Public Release Policy
+# 公開ポリシー
 
-This repository follows a documentation-only release policy.
+このリポジトリは、ドキュメント専用の公開ポリシーに従います。
 
-## Allowed Content
+## 公開してよい内容
 
-- High-level product explanation
-- Public-safe architecture diagrams
-- Generic examples
-- Security and privacy notes
-- External-facing project status
+- 概要レベルのプロダクト説明
+- 公開しても問題ない範囲のアーキテクチャ図
+- 一般化された例
+- セキュリティとプライバシーに関する注意事項
+- 外部向けのプロジェクト状態
 
-## Disallowed Content
+## 公開してはいけない内容
 
-- Source code from the private repository
-- Internal configuration
-- Real shortcut data
-- Private URLs
-- Secrets or credentials
-- Deployment scripts
-- Build artifacts
-- Detailed reverse-engineering information
+- privateリポジトリのソースコード
+- 社内設定
+- 実際のショートカットデータ
+- privateなURL
+- シークレットや認証情報
+- デプロイスクリプト
+- ビルド成果物
+- private実装を再現できるほど詳細な情報
 
-## Publishing Rule
+## 公開ルール
 
-Public content should explain what the project is and why it exists without enabling someone to run, reconstruct, or misuse the private implementation.
+公開コンテンツは、プロジェクトが何であり、なぜ存在するのかを説明するためのものです。第三者がprivate実装を実行、再構築、または不正利用できる内容は含めません。
 
-## Maintenance
+## メンテナンス
 
-Before each public update, review the changed files for private identifiers, internal names, and accidentally copied implementation details.
-
+公開内容を更新する前に、変更されたファイルにprivateな識別子、社内名称、誤ってコピーされた実装詳細が含まれていないか確認します。

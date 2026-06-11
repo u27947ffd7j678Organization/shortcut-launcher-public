@@ -1,50 +1,49 @@
 # Shortcut Launcher
 
-Shortcut Launcher is a private internal tool for organizing and launching frequently used shortcuts from a single place.
+Shortcut Launcher は、よく使うショートカットを1か所に整理し、すばやく開くための社内向けツールです。
 
-This public repository is a documentation-only version prepared for external explanation, portfolio review, and high-level technical discussion. It does not include source code, build scripts, runtime assets, credentials, internal configuration, or any files that would allow the private application to be cloned and used as-is.
+この公開リポジトリは、外部向けの説明、ポートフォリオ確認、概要レベルの技術説明を目的としたドキュメント専用版です。ソースコード、ビルドスクリプト、実行用アセット、認証情報、内部設定、またはprivate版アプリケーションをそのままクローンして利用できるファイルは含めていません。
 
-## What This Repository Contains
+## このリポジトリに含まれるもの
 
-- Product overview and intended use cases
-- High-level architecture notes
-- Public-safe feature descriptions
-- Security and privacy policy
-- Contribution and contact guidelines
+- プロダクト概要と想定ユースケース
+- 概要レベルのアーキテクチャ説明
+- 公開しても問題ない範囲の機能説明
+- セキュリティとプライバシーに関する方針
+- コントリビューションと連絡に関する案内
 
-## What This Repository Does Not Contain
+## このリポジトリに含まれないもの
 
-- Application source code
-- Private business logic
-- Internal shortcut definitions
-- API keys, secrets, tokens, or environment files
-- Deployment configuration
-- Build instructions for the private implementation
-- Test fixtures, screenshots, or data that reveal private usage
+- アプリケーションのソースコード
+- private版の業務ロジック
+- 社内向けショートカット定義
+- APIキー、シークレット、トークン、環境設定ファイル
+- デプロイ設定
+- private実装のビルド手順
+- privateな利用状況が分かるテストデータ、スクリーンショット、その他データ
 
-## Purpose
+## 目的
 
-The private Shortcut Launcher project was created to make repeated navigation tasks faster and more consistent. Instead of manually finding URLs, tools, documents, or operational resources, users can open a curated launcher and select the destination they need.
+private版の Shortcut Launcher は、繰り返し発生するナビゲーション作業を速く、安定して行うために作成されました。ユーザーはURL、ツール、ドキュメント、業務リソースを毎回探す代わりに、整理されたランチャーを開き、必要な行き先を選択できます。
 
-The public version is intentionally limited to explaining the concept and design approach.
+公開版では、コンセプトと設計方針の説明に範囲を限定しています。
 
-## Public-Safe Feature Summary
+## 公開可能な機能概要
 
-- Centralized shortcut catalog
-- Category-based organization
-- Fast access to frequently used destinations
-- Lightweight UI intended for repeated daily use
-- Separation between public product description and private operational data
+- ショートカットカタログの一元管理
+- カテゴリ別の整理
+- よく使う行き先への素早いアクセス
+- 日常的な繰り返し利用を想定した軽量なUI
+- 公開用の説明情報とprivateな業務データの分離
 
-## Documentation
+## ドキュメント
 
-- [Product Overview](docs/product-overview.md)
-- [Architecture Overview](docs/architecture-overview.md)
-- [Security Model](docs/security-model.md)
-- [Public Release Policy](docs/public-release-policy.md)
+- [プロダクト概要](docs/product-overview.md)
+- [アーキテクチャ概要](docs/architecture-overview.md)
+- [セキュリティモデル](docs/security-model.md)
+- [公開ポリシー](docs/public-release-policy.md)
 - [FAQ](docs/faq.md)
 
-## Repository Status
+## リポジトリの状態
 
-This repository is public-facing documentation only. The implementation remains private.
-
+このリポジトリは、外部公開向けのドキュメント専用リポジトリです。実装はprivateリポジトリで管理されています。

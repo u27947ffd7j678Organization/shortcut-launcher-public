@@ -1,8 +1,7 @@
-# Contributing
+# コントリビューション
 
-This repository is maintained as public-facing documentation for a private project.
+このリポジトリは、privateプロジェクトの外部公開向けドキュメントとして管理されています。
 
-Contributions should be limited to documentation improvements that do not reveal implementation details, internal URLs, private workflows, or confidential information.
+コントリビューションは、実装詳細、社内URL、privateなワークフロー、機密情報を明かさない範囲のドキュメント改善に限定してください。
 
-Before submitting changes, verify that the content is safe for public release.
-
+変更を提出する前に、その内容が公開しても問題ないことを確認してください。

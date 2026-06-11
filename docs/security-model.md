@@ -1,40 +1,39 @@
-# Security Model
+# セキュリティモデル
 
-Shortcut Launcher is treated as an internal tool because the shortcut catalog can reveal private operational structure, internal services, and workflow patterns.
+Shortcut Launcher は、ショートカットカタログからprivateな業務構造、社内サービス、ワークフローの傾向が分かる可能性があるため、社内向けツールとして扱います。
 
-## Public Repository Safeguards
+## 公開リポジトリでの保護方針
 
-This public repository is designed to avoid exposing:
+この公開リポジトリでは、以下を公開しないように設計しています。
 
-- Source code
-- Internal URLs
-- Private shortcut definitions
-- Credentials or tokens
-- Environment variables
-- Deployment details
-- Screenshots containing sensitive destinations
+- ソースコード
+- 社内URL
+- privateなショートカット定義
+- 認証情報やトークン
+- 環境変数
+- デプロイに関する詳細
+- 機密性のある行き先が写ったスクリーンショット
 
-## Private Data Classification
+## privateデータの分類
 
-The following are considered private and should remain outside the public repository:
+以下はprivate情報として扱い、公開リポジトリには含めません。
 
-- Any real shortcut target
-- Internal tool names that are not already public
-- Organization-specific workflows
-- User, team, or account identifiers
-- Logs, telemetry, and analytics
-- Configuration files from the private implementation
+- 実際のショートカット先
+- 既に公開されていない社内ツール名
+- 組織固有のワークフロー
+- ユーザー、チーム、アカウントの識別子
+- ログ、テレメトリ、分析データ
+- private実装の設定ファイル
 
-## Review Checklist Before Publishing
+## 公開前チェックリスト
 
-- Confirm that no source files are present
-- Confirm that no package or lock files are present
-- Confirm that no `.env` files are present
-- Confirm that no generated build output is present
-- Confirm that no screenshots expose internal resources
-- Confirm that documentation uses generic examples only
+- ソースファイルが含まれていないことを確認する
+- パッケージファイルやロックファイルが含まれていないことを確認する
+- `.env` ファイルが含まれていないことを確認する
+- 生成されたビルド成果物が含まれていないことを確認する
+- スクリーンショットから社内リソースが分からないことを確認する
+- ドキュメント内の例が一般化された内容だけであることを確認する
 
-## Reporting
+## 報告
 
-If sensitive information is accidentally published, remove it from the public repository and rotate any affected credentials immediately.
-
+機密情報が誤って公開された場合は、公開リポジトリから削除し、影響を受ける認証情報をただちにローテーションしてください。

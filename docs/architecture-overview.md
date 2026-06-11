@@ -1,41 +1,40 @@
-# Architecture Overview
+# アーキテクチャ概要
 
-This document describes the architecture at a high level without exposing implementation details from the private repository.
+このドキュメントでは、privateリポジトリの実装詳細を公開せずに、概要レベルのアーキテクチャを説明します。
 
-## Conceptual Flow
+## 概念フロー
 
 ```mermaid
 flowchart LR
-    User["User"] --> UI["Shortcut Launcher UI"]
-    UI --> Catalog["Shortcut Catalog"]
-    Catalog --> Destination["Approved Destination"]
+    User["ユーザー"] --> UI["Shortcut Launcher UI"]
+    UI --> Catalog["ショートカットカタログ"]
+    Catalog --> Destination["承認済みの行き先"]
 ```
 
-## Main Components
+## 主な構成要素
 
-### User Interface
+### ユーザーインターフェース
 
-The interface presents shortcuts in an organized, searchable, or grouped format. It is designed for fast repeated access rather than long-form browsing.
+インターフェースは、ショートカットを整理済み、検索可能、またはグループ化された形式で表示します。長時間の閲覧ではなく、繰り返し発生するアクセスを素早く行うことを目的としています。
 
-### Shortcut Catalog
+### ショートカットカタログ
 
-The catalog represents the set of available destinations. In the private implementation, catalog details may include internal names, URLs, categories, and metadata. These details are not included in this public repository.
+カタログは、利用可能な行き先の集合を表します。private実装では、カタログの詳細に社内名称、URL、カテゴリ、メタデータなどが含まれる場合があります。これらの詳細は、この公開リポジトリには含めていません。
 
-### Destination Handling
+### 行き先の処理
 
-When a user selects a shortcut, the launcher opens the corresponding destination. Public documentation avoids describing private routing, internal URL formats, or operational conventions.
+ユーザーがショートカットを選択すると、ランチャーは対応する行き先を開きます。公開ドキュメントでは、privateなルーティング、社内URL形式、業務上の命名規則などは説明しません。
 
-## Data Boundaries
+## データ境界
 
-The public repository intentionally excludes:
+公開リポジトリでは、以下を意図的に除外しています。
 
-- Internal shortcut records
-- Private URLs
-- Authentication details
-- Environment-specific configuration
-- Deployment topology
+- 社内向けショートカット情報
+- privateなURL
+- 認証に関する詳細
+- 環境固有の設定
+- デプロイ構成
 
-## Implementation Boundary
+## 実装境界
 
-The implementation is maintained in a private repository. This repository exists only to explain the idea, design intent, and public-safe architecture.
-
+実装はprivateリポジトリで管理されています。このリポジトリは、アイデア、設計意図、公開可能な範囲のアーキテクチャを説明するためだけに存在します。

@@ -1,22 +1,21 @@
 # FAQ
 
-## Is this the full Shortcut Launcher source code?
+## これは Shortcut Launcher の完全なソースコードですか？
 
-No. This repository intentionally contains documentation only.
+いいえ。このリポジトリには、意図的にドキュメントのみを含めています。
 
-## Can I install or run the application from this repository?
+## このリポジトリからアプリケーションをインストールしたり実行したりできますか？
 
-No. The private implementation is not included.
+いいえ。private実装は含まれていません。
 
-## Why publish a repository without code?
+## なぜコードなしのリポジトリを公開しているのですか？
 
-The goal is to make the project explainable externally while protecting private implementation details, internal URLs, and operational data.
+目的は、privateな実装詳細、社内URL、業務データを保護しながら、プロジェクトの概要を外部に説明できるようにすることです。
 
-## Is the private repository available?
+## privateリポジトリは公開されていますか？
 
-No. The implementation repository remains private.
+いいえ。実装リポジトリはprivateのまま管理されています。
 
-## Can external contributors submit code?
+## 外部コントリビューターはコードを提出できますか？
 
-Not at this time. Issues or suggestions about the public documentation may be considered separately.
-
+現時点では受け付けていません。公開ドキュメントに関するIssueや提案は、内容に応じて個別に検討します。
